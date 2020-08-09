@@ -67,6 +67,6 @@ Unity Definition Downloader Editor<br>
 ---------
 * Unity package
 * Open source codes
-  * ExportDefinition.json
+  * ExportDefinition.gs
   * GoogleDriveDownloader.py
   * DefinitionDownloaderEditor.cs
