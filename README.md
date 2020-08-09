@@ -3,17 +3,17 @@
 
 :pushpin: Overview
 ---------
-Game definitions pipeline show case what is dealing with json definitions on google drive and then download into unity for next data processing. Here is a tutorial use case that I solve for my project and I would like to share it with you.
+A showcase of game definitions pipeline with definitions on google drive and then download into unity for next data processing. Here is a tutorial use case that I solved for my project and I would like to share it with you.
 
 ![Architecture](https://user-images.githubusercontent.com/14979589/89738801-36e90300-da84-11ea-8ccb-c5c4273725ac.png)
 
 :bulb: Idea
 ---------
-Pipeline which will be cover whole process from create definitions in google drive till I will able to process definitions into unity.
+Build a pipeline that will be cover whole process from creating definitions in google drive till I will able to process definitions into unity.
 
 :white_check_mark: Goals
 ---------
-* Google Drive sheet export to json
+* Google Drive sheet export to JSON
 * Definitions version system with backups
 * List definitions in unity
 * Ability to download into unity
@@ -30,8 +30,8 @@ Unity Definition Downloader Editor<br>
 ---------
 **Google Drive Definitions Export** <br>
 (Javascript Add-on)
-* Convert and export sheet to json
-* Create definitions pack from json data
+* Convert and export sheet to JSON
+* Create definitions pack from JSON data
 * Create root sheet backup with version
 
 **Definitions Structure**<br>
@@ -46,20 +46,20 @@ Unity Definition Downloader Editor<br>
 
 **Google Drive API Downloader**<br>
 (Python Script)
-* Authentification by generated credential by google console
+* Authentication by credential by google console
 * Searching and listing between definitions
 * Downloading files and dealing with folders
 
 **Unity Editor Tool**<br>
 (C# script)
-* Creating a process for external call of GoogleDriveAPIDownloader
-* Dealing with output data from stage before
-* Convert data into usable structure and processing them
+* Creating a process for the external call of GoogleDriveAPIDownloader
+* Dealing with output data from the google drive downloader
+* Convert data into the usable structure and processing them
 
 :page_facing_up: How to install
 ---------
 * Download package
-* Setup python enviroment variable as PYTHON_HOME
+* Setup python environment variable as PYTHON_HOME
 * Generate google console credential.json and put into plugin source
 * Setup tool paths
 
