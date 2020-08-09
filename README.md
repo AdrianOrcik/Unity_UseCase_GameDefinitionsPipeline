@@ -50,7 +50,7 @@ Unity Definition Downloader Editor<br>
 * Searching and listing between definitions
 * Downloading files and dealing with folders
 
-**Unity Editor Tool**
+**Unity Editor Tool**<br>
 (C# script)
 * Creating a process for external call of GoogleDriveAPIDownloader
 * Dealing with output data from stage before
