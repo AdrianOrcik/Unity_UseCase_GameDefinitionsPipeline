@@ -55,3 +55,18 @@ Unity Definition Downloader Editor<br>
 * Creating a process for external call of GoogleDriveAPIDownloader
 * Dealing with output data from stage before
 * Convert data into usable structure and processing them
+
+:page_facing_up: How to install
+---------
+* Download package
+* Setup python enviroment variable as PYTHON_HOME
+* Generate google console credential.json and put into plugin source
+* Setup tool paths
+
+:package: Package to download
+---------
+* Unity package
+* Open source codes
+ * ExportDefinition.json
+ * GoogleDriveDownloader.py
+ * DefinitionDownloaderEditor.cs
