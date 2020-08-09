@@ -3,7 +3,7 @@
 
 :pushpin: Overview
 ---------
-Game definitions pipeline show case what is dealing with json definitions on google drive and then download into unity for next data processing.Here is a tutorial use case that I solve for my project and I would like to share it with you.
+Game definitions pipeline show case what is dealing with json definitions on google drive and then download into unity for next data processing. Here is a tutorial use case that I solve for my project and I would like to share it with you.
 
 ![Architecture](https://user-images.githubusercontent.com/14979589/89738801-36e90300-da84-11ea-8ccb-c5c4273725ac.png)
 
